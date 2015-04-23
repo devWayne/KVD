@@ -1,0 +1,25 @@
+{
+  "name": "vDOM",
+  "version": "1.0.0",
+  "description": "virtual dom implement",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build":"browserify vnode.js > dist/vnode.js",
+    "build-uglify":"browserify vnode.js | uglifyjs > dist/vnode.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/vDOM.git"
+  },
+  "keywords": [
+    "virtual",
+    "dom"
+  ],
+  "author": "Vi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devWayne/vDOM/issues"
+  },
+  "homepage": "https://github.com/devWayne/vDOM"
+}

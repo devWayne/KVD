@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build":"browserify vnode.js > dist/vnode.js",
-    "build-uglify":"browserify vnode.js | uglifyjs > dist/vnode.js"
+    "build":"browserify index.js > dist/index.js",
+    "build-uglify":"browserify index.js | uglifyjs > dist/index.min.js"
   },
   "repository": {
     "type": "git",

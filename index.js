@@ -1,18 +1,15 @@
-var diff= require('./lib/diff');
+var diff = require('./lib/diff');
 
-var nodeTree= require('./lib/nodeTree');
+var createElement = require('./lib/createElement');
 
-var renderNode= require('./lib/renderNode');
+var render = require('./lib/render');
 
-var vnode = require('./lib/vnode');
-
-var vDOM={
-diff:diff,
-nodeTree:nodeTree,
-renderNode:renderNode,
-vnode:vnode
+var KVD = {
+    diff: diff,
+    render: render,
+    createElement:createElement
 }
 
-window.vDOM=vDOM;
+window.KVD = KVD;
 
-module.exports=vDOM;
+module.exports = KVD;

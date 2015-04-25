@@ -1,6 +1,6 @@
 {
-  "name": "KVD",
-  "version": "1.0.0",
+  "name": "kvd",
+  "version": "1.0.1",
   "description": "virtual dom implement",
   "main": "index.js",
   "scripts": {
